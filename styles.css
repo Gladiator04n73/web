@@ -1,0 +1,162 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to left, #ffffff, #0056b3);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #ffe600;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.lab-content {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.lab-link {
+    display: block; /* Изменено на block для списка */
+    background-color: var(--accent-color);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px; /* Добавлено для отступа между ссылками */
+}
+
+.lab-link:hover {
+    background-color: #ff7b7b;
+}
+
+/* Стили для списка */
+.lab-list {
+    list-style-type: none; /* Убираем стандартные маркеры списка */
+    padding: 0; /* Убираем отступы */
+}
+
+.lab-list li {
+    margin-bottom: 10px; /* Отступ между элементами списка */
+}
+
+.container {
+    background-color: #ff7b7b;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+h1, h2 {
+    color: #ffe600;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+.user-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 10px 0;
+}
+.super-user-card {
+    background-color: #e8f4ff;
+    border: 1px solid #b8daff;
+}
+.stats {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+}
+.user-info {
+    margin: 5px 0;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    margin: 30px 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.pattern-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.pattern-card {
+
+    border-radius: 10px;
+    box-shadow: 0 4px 8px var(--shadow-color);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pattern-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px var(--shadow-color);
+}
+
+.pattern-header {
+
+    color: #ffe600;
+    padding: 15px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.pattern-content {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.pattern-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pattern-link {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.pattern-link:hover {
+    background-color: #ff7b7b;
+}
