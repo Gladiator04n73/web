@@ -1,0 +1,3 @@
+2025-04-18 00:16:33: 'users:init' with data '"\/home\/f1091114\/domains\/f1091114.xsph.ru\/public_html\/lab2\/Observer\/RealWorld\/users.csv"'
+2025-04-18 00:16:33: 'users:created' with data '{"attributes":{"name":"John Smith","email":"john99@example.com","id":"9261f61bbb381fdfa084c409a5e96b19"}}'
+2025-04-18 00:16:33: 'users:deleted' with data '{"attributes":{"name":"John Smith","email":"john99@example.com","id":"9261f61bbb381fdfa084c409a5e96b19"}}'

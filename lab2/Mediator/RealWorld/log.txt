@@ -1,0 +1,3 @@
+2025-04-18 00:09:25: 'users:init' with data '"\/home\/f1091114\/domains\/f1091114.xsph.ru\/public_html\/lab2\/Mediator\/RealWorldusers.csv"'
+2025-04-18 00:09:25: 'users:created' with data '{"attributes":{"name":"John Smith","email":"john99@example.com","id":"acab953467ad2e9925666009831160f0"}}'
+2025-04-18 00:09:25: 'users:deleted' with data '{"attributes":{"name":"John Smith","email":"john99@example.com","id":"acab953467ad2e9925666009831160f0"}}'
