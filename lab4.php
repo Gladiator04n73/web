@@ -127,7 +127,7 @@
     <div class="section-container">
         <h2 class="section-title">Диаграмма классов</h2>
         <div class="diagram-container">
-            <img src="news/images/NewsSystem.png" alt="Диаграмма классов новостной системы" style="max-width: 100%; margin: 0 auto; display: block;">
+<a href="//www.plantuml.com/plantuml/png/lPB1RjD048RlVefHbKChQ3XmYqHLGa2gH2ieuXmvziIrjDajwtKX2f7QW40e4WY90qTuWu0QuLAIlCBi6p6xjObHENFR-VtFD_zwTZSpeJRvG0IfDAZxOOImTu3FiquRHW703SZ24tJ2PiEaHk1DQ4IXmKJf8HzZp2AT7fjKIQuobUi8jrhGKqhuvWIDxsKjr3eSUZ56WQPafd5b7mT19C8iWzhqRHXnFfD6O-YqkmTtz--t83CwbGdSWGt9ncRSs_36RjnhmPF73rE3j_sKaSOmLb8Cntz_yn-xtKX99kMHsTmgbHWhuR_UsuMFD3AxqtR-4vN6wvzHfeRHjTYDVYfGXWEyYeilCDfiFCjH3-j1lB3MIzmXPhamtX09bU7rkIxbep31SWsIorQv6I-WrljPKj_6XiTfb35gPwoONZuAPIpmWTA3VyWT5EZ-P3r5-GYQpPSxrNkijEtjdJ_Bh69wiRG5KXa4euv1zTUHwIijwGUTqupcTdABLhJauYTTslVsxPK8z94-bMZNiRAdL00LjA32lg62NPTKC6Jcgw89z8NcbMfVEGRttJjysW6chxW-hRn0vppg0p1hITzfQS_iX7il0fGnkC1bR9qcHyO5trid_qmBDZFCldOjzipJcJrdwDnX-Gxlg60QW4ENGnPsIdEWNowNkwsTWWj4tzWpiLCsCweUo9ylW0qplkModcwNJ_b0_0O0">uml</a>
         </div>
     </div>
 

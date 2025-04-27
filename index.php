@@ -48,6 +48,16 @@ use MyProject\Classes\SuperUser;
             <div class="lab-content">
                 <a href="lab3.php" class="lab-link">Паттерн Модель-Представление-Контроллер</a>
             </div>
+                        <div class="lab-content">
+                <a href="lab4.php" class="lab-link">Использование ООП с базой данных SQLite</a>
+            </div>
+                        <div class="lab-content">
+                <a href="lab5.php" class="lab-link">Standard PHP Library</a>
+            </div>
+                        <div class="lab-content">
+                <a href="lab6/hello/" class="lab-link">Использование MVC фреймворка</a>
+            </div>
+            
     </div>
 
 </body>

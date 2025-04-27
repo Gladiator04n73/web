@@ -1,52 +1,47 @@
+<?php
+namespace MyProject;
+
+// Явное подключение файла (временно для отладки)
+require_once __DIR__ . '/MyProject/Classes/NumbersSquared.php';
+
+use MyProject\Classes\NumbersSquared;
+
+// Автозагрузчик (дополнительная проверка)
+spl_autoload_register(function ($class) {
+    $file = __DIR__ . '/' . str_replace('\\', '/', $class) . '.php';
+    echo "Пытаемся загрузить: $class\n";
+    echo "Ищем файл: $file\n";
+    
+    if (file_exists($file)) {
+        require_once $file;
+        echo "Файл успешно загружен\n";
+    } else {
+        die("Файл класса не найден: $file");
+    }
+});
+
+// Проверка существования класса перед использованием
+if (!class_exists('MyProject\Classes\NumbersSquared')) {
+    die("Класс NumbersSquared не найден!");
+}
+
+// Создание и использование итератора
+try {
+    $obj = new NumbersSquared(3, 7);
+    foreach ($obj as $num => $square) {
+        echo "Квадрат числа $num = $square<br>";
+    }
+} catch (Error $e) {
+    die("Ошибка: " . $e->getMessage());
+}
+echo "<a href='//www.plantuml.com/plantuml/png/f90z3i8m38NtdC9ZAw07w81OMLWuGTguKaH-XEEK8k3kq0GreYlZ-nG_-yiXi2IErWZj66cGFSAHaIHxWeS0s03XJPAgwXP6hrL2epGwaSvxauZ3YN-UNF0-PwidpA2FHEYum9SGlP4Xm2dQ3YcShr4IghHr1-ck5hJZ5D6f4hvL6Spbgugg36-NoVf_cRo_g6GqYwmKckQvNxvH2ESPF-tCte8VLiU-UoIN6mHY68ZUjugKGcdxGUA2j2rGGWInDX0bsyARZh0vS1jhveraozx80oFJg1pQCAs9IjVgSjOLuwtbtnT0eMbFd0mjD8p2u4aEnAqxdS6ByOlGjEc6qQdQ0_z4bg8vY22J-rLBmCad2fNCIUPWqB79pvXYZ-dYol_b2m00'>Просмотреть диаграмму классов</a>";
+echo "<br><a href='index.php'>Вернуться на главную</a>";
+?>
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Лабораторная работа №5</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f5f5f5;
-            color: #333;
-            line-height: 1.6;
-        }
-        .container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #4a6da7;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 10px;
-        }
-        .back-link {
-            display: inline-block;
-            margin-top: 20px;
-            background-color: #f0ad4e;
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-        .back-link:hover {
-            background-color: #e09a3c;
-        }
-    </style>
+	<title>Standard PHP Library</title>
+	<meta charset="utf-8">
 </head>
-<body>
-    <div class="container">
-        <h1>Лабораторная работа №5</h1>
-        <p>Работа с API и асинхронными запросами. Использование AJAX для создания динамических веб-приложений.</p>
-        <p>Эта лабораторная работа находится в разработке.</p>
-        
-        <a href="index.php" class="back-link">Вернуться на главную</a>
-    </div>
-</body>
-</html> 
+
+</html>

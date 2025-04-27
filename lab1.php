@@ -24,7 +24,7 @@ use MyProject\Classes\User;
 use MyProject\Classes\SuperUser;
 
 // Создание обычных пользователей
-$user1 = new User("Dandito Bobrito", "Bobrito", "Bobrito gangsterito");
+$user1 = new User("Bandito Bobrito", "Bobrito", "Bobrito gangsterito");
 $user2 = new User("Bombardiro Crocodilo", "Crocodilo", "Allegattorre");
 $user3 = new User("Tung Tung Tung Sahur", "Sahur", "Bita");
 
@@ -76,13 +76,14 @@ $superUser = new SuperUser("Tralalelo Tralala", "ryba", "adminpass", "Administra
             <h2>Статистика</h2>
             <p>Всего обычных пользователей: <?php echo User::getUserCount(); ?></p>
             <p>Всего привилегированных пользователей: <?php echo SuperUser::getSuperUserCount(); ?></p>
-        </div>
-    </div>
-        <div>
-        <a href="https://img.plantuml.biz/plantuml/png/fLRTRjfW3BtFKtpYPfic-W1JDVLLKCkcIXqNmAxMIJHTsmkGw2IaJPe6dRO722bHKcZW5Umtsh53GtuR2ge8xUTZ-zZ7dzEZJhVHxdx-T6PPfwrki_sXSTmqDPfmZvPyGOzusjmpDACbpVaI1nw5R9F3rnHGO6X5Ipm0Ts2tSJOdhsQ-MCQyDL4OkbVh8twSB3Hu_SRwcauzfgb000Zn71gmS7b8FW_YiEMGADpnMQFJCNG7ldFaT_6PKG2uHmiU84gCgPM2f703MmYUBddSGnArIl6f0WF5e3YngH_Vy7UsmKKnFs112n3BHoQqmCV131-uyJ39k8ADzix3kNp3LNh8mvXBPPwj6OyXBcIkO0lOsayPr0tz1im7TmMJbnFxdUbqswUjZn5wf0eYWuXu0zn2_i18BRK5ePvfref0OmnX07dYj2xtPIuHCDGwGlp-O3J4LAljnm4srOmKx6gC-LD5CSTiI6MLQirBEN6VhnAS2XX5KisbgJa-gusDdC9gKlUL-o-zakiuV-1xYI8rIbBdoCb5FLwijWxjlLIZ8vmMIkVAZlrqjkB98oULTIADuW5gapXEukPg_bzIWKnnkkSJ87kHPzhmZtxIE4tb5eA0fNRHZxPPPhf7gjzAhWWc4GlWgOFIscbHxNd6yQtxgtEoFRuuHrewQ5eitIjL2EGNkYsMcnjfbIwOm_DwVUTjk5_OahMcTTp187rBY6H4U4tTusymFu0A8blxlxGEpmyE2cwEzVmxIRrsxjp-iPzhtorVI7Uqx7Nnriwll7hzVMBdLyKfUrbbecGMJDQQluIAADaFfVYyfWKBKf2rBVOZMdlKR9tWVwR_">
+                    <div>
+        <a href="//www.plantuml.com/plantuml/png/jP91IyGm48Nl-HLpt4LRF1U55Kzx40JnlCHqjaRIf4mcBaljVpTX4zegUxIdvirxUNn3TfubSUYDiB97FqY5y7n-8VU9Ykid8xr73wC0aE-UIIe6bKHupCStZvJcyRiPYsS2_-5EUtjqcsqSJK90ZYtjgR61cD2skoZ6TTgkf6g8gPEZTcqSFKlMQWBbWkK6j6LuWBlBy71GpaPtKBnPTjn2lhySVz-zBVaMSpmhCqq3NqwtcIdL8XtJpbx3W9JWzaKgb1roYKeYULxjOyuLEpc3_yjQb6NJTSxh1EidSFzTLP3-uc0M2bvI_wueUkfwuPd43cqRUlC3">
             uml
         </a>
     </div>
+        </div>
+    </div>
+
 
     <?php
     // Удаление пользователей
@@ -103,12 +104,6 @@ $superUser = new SuperUser("Tralalelo Tralala", "ryba", "adminpass", "Administra
     
     // В конце удаляем привилегированного пользователя
     unset($superUser);
-    
-    // Получаем содержимое буфера и очищаем его
-    
-    
-    // Выводим все сообщения внутри блока
-
     ?>
 </body>
 </html> 
